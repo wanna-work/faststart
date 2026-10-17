@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ee">
-  <meta name="description" content="FAST.START — персональные сайты-портфолио, страницы услуг и личные сайты для специалистов. Структура, тексты, дизайн и публикация за 24 часа. Первые 10 проектов — 1 500 ₽.">
-  <meta property="og:title" content="FAST.START — ваш опыт. Ваши работы. Одна ссылка.">
-  <meta property="og:description" content="Соберу персональный сайт под вашу задачу: портфолио, страница услуг или личная страница специалиста. Первые 10 проектов — 1 500 ₽.">
+  <meta name="description" content="FAST.START — персональный сайт-портфолио для специалистов, фрилансеров и экспертов. Ваши работы и услуги в одной ссылке. Первые 10 заказчиков — 3 000 ₽. Срок — 24 часа после брифа.">
+  <meta property="og:title" content="FAST.START — не десять файлов. Одна ссылка.">
+  <meta property="og:description" content="Я соберу ваши работы, услуги и опыт в персональный сайт. Первые 10 заказчиков — 3 000 ₽. Срок — 24 часа после брифа.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ru_RU">
-  <title>FAST.START — сайт-портфолио и личная страница под ключ</title>
+  <title>FAST.START — сайт-портфолио за 24 часа</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23ff4d38'/%3E%3Cpath d='M12 9h18v5H18v4h10v5H18v8h-6z' fill='white'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +32,7 @@
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; scroll-padding-top: 100px; }
-    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--font); letter-spacing: -.015em; overflow-x: hidden; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 18px/1.58 var(--font); letter-spacing: -.015em; overflow-x: hidden; }
     body, button, a { -webkit-tap-highlight-color: transparent; }
     img, svg { display: block; max-width: 100%; }
     a { color: inherit; }
@@ -40,22 +40,22 @@
     a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
     ::selection { background: var(--lime); color: var(--ink); }
     .container { width: min(100%, var(--max)); margin-inline: auto; padding-inline: var(--pad); }
-    .eyebrow { display: inline-flex; align-items: center; gap: 9px; text-transform: uppercase; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; text-transform: uppercase; font-size: 12px; font-weight: 800; letter-spacing: .1em; }
     .eyebrow::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
     .muted { color: var(--muted); }
     .accent { color: var(--accent); }
     .section { padding-block: clamp(72px, 10vw, 144px); border-top: 1px solid var(--line); }
     .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-bottom: clamp(30px, 5vw, 64px); }
     .section-heading h2 { max-width: 900px; margin: 14px 0 0; font-size: clamp(2rem, 5.5vw, 5.8rem); line-height: .98; letter-spacing: -.075em; font-weight: 800; }
-    .section-heading > p { max-width: 330px; margin: 0 0 6px; color: var(--muted); font-size: 14px; }
-    .btn { display: inline-flex; justify-content: center; align-items: center; gap: 12px; min-height: 54px; padding: 15px 22px; border: 1px solid var(--accent); border-radius: 999px; background: var(--accent); color: white; font-size: 14px; font-weight: 800; text-decoration: none; transition: transform .22s ease, background .22s ease, box-shadow .22s ease; box-shadow: 0 8px 20px rgba(255, 77, 56, .12); }
+    .section-heading > p { max-width: 330px; margin: 0 0 6px; color: var(--muted); font-size: 16px; }
+    .btn { display: inline-flex; justify-content: center; align-items: center; gap: 12px; min-height: 54px; padding: 15px 22px; border: 1px solid var(--accent); border-radius: 999px; background: var(--accent); color: white; font-size: 16px; font-weight: 800; text-decoration: none; transition: transform .22s ease, background .22s ease, box-shadow .22s ease; box-shadow: 0 8px 20px rgba(255, 77, 56, .12); }
     .btn:hover { transform: translateY(-3px); background: var(--accent-dark); box-shadow: 0 13px 28px rgba(255, 77, 56, .2); }
     .btn svg { width: 17px; height: 17px; }
     .btn--dark { background: var(--ink); border-color: var(--ink); color: white; box-shadow: none; }
     .btn--dark:hover { background: #333; border-color: #333; }
     .btn--line { color: var(--ink); background: transparent; border-color: var(--line); box-shadow: none; }
     .btn--line:hover { background: var(--paper); border-color: var(--ink); box-shadow: none; }
-    .text-link { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 800; text-decoration: none; }
+    .text-link { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 800; text-decoration: none; }
     .text-link span { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--lime); transition: transform .2s ease; }
     .text-link:hover span { transform: translate(2px, -2px); }
 
@@ -66,23 +66,23 @@
     .brand-mark { display: inline-grid; place-items: center; width: 29px; height: 29px; border-radius: 9px; color: white; background: var(--accent); font-size: 16px; letter-spacing: -.08em; }
     .brand-dot { color: var(--accent); }
     .nav-links { display: flex; align-items: center; gap: clamp(15px, 2.4vw, 34px); }
-    .nav-links a { font-size: 12px; font-weight: 700; color: #4b4a46; text-decoration: none; transition: color .2s ease; }
+     .nav-links a { font-size: 14px; font-weight: 700; color: #4b4a46; text-decoration: none; transition: color .2s ease; }
     .nav-links a:hover { color: var(--accent); }
-    .nav-cta { min-height: 42px; padding: 10px 16px; font-size: 12px; }
+    .nav-cta { min-height: 44px; padding: 10px 17px; font-size: 14px; }
 
     /* Hero */
     .hero { padding: clamp(35px, 6vw, 82px) 0 clamp(50px, 8vw, 108px); }
     .hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(400px, .95fr); align-items: center; gap: clamp(40px, 7vw, 100px); }
     .hero-copy { position: relative; z-index: 1; }
     .hero-kicker { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 25px; }
-    .pill { display: inline-flex; align-items: center; gap: 7px; padding: 7px 11px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,254,250,.65); color: #4d4b46; font-size: 10px; line-height: 1.2; font-weight: 800; letter-spacing: .055em; text-transform: uppercase; }
+    .pill { display: inline-flex; align-items: center; gap: 7px; padding: 7px 11px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,254,250,.65); color: #4d4b46; font-size: 12px; line-height: 1.2; font-weight: 800; letter-spacing: .055em; text-transform: uppercase; }
     .pill--dark { background: var(--ink); color: white; border-color: var(--ink); }
     .pill-dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
     h1 { max-width: 800px; margin: 0; font-size: clamp(3.5rem, 8.3vw, 8.8rem); font-weight: 800; line-height: .88; letter-spacing: -.092em; }
     h1 .line { display: block; }
     h1 .highlight { position: relative; z-index: 0; display: inline-block; white-space: nowrap; }
     h1 .highlight::after { content: ""; position: absolute; z-index: -1; left: -.03em; right: -.06em; bottom: .03em; height: .29em; transform: rotate(-1.5deg); border-radius: .08em; background: var(--lime); }
-    .hero-desc { max-width: 560px; margin: 28px 0 0; color: var(--muted); font-size: clamp(15px, 1.3vw, 18px); line-height: 1.65; }
+    .hero-desc { max-width: 560px; margin: 28px 0 0; color: var(--muted); font-size: clamp(18px, 1.5vw, 21px); line-height: 1.55; }
     .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 28px; }
     .hero-note { display: flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--muted); font-size: 11px; }
     .hero-note svg { width: 15px; height: 15px; flex: 0 0 auto; color: var(--accent); }
@@ -106,9 +106,9 @@
     .mini-button { display: inline-flex; margin-top: 20px; padding: 8px 10px; border-radius: 999px; background: var(--ink); color: white; font-size: 8px; font-weight: 800; }
     .mini-meta { margin-top: auto; padding-top: 26px; color: #77756f; font-size: 7px; text-transform: uppercase; letter-spacing: .1em; }
     .mini-art { position: relative; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
-    .art-photo { position: relative; flex: 1 1 auto; min-height: 230px; overflow: hidden; border-radius: 10px; background: var(--accent); }
-    .art-photo::before { content: ""; position: absolute; width: 70%; height: 100%; top: 3%; left: 12%; border-radius: 48% 48% 10% 10%; background: #fac8b8; transform: rotate(12deg); }
-    .art-photo::after { content: "F / S"; position: absolute; right: 8px; bottom: 6px; color: white; font-size: 12px; font-weight: 900; letter-spacing: -.09em; }
+     .art-photo { position: relative; flex: 1 1 auto; min-height: 230px; overflow: hidden; border-radius: 10px; background: radial-gradient(circle at 50% 30%, #c8bcae 0 13%, transparent 13.8%), radial-gradient(ellipse at 50% 96%, #a79a8c 0 38%, transparent 38.8%), #e7e0d4; }
+    .art-photo::before { content: ""; }
+    .art-photo::after { content: "тут можете быть вы"; position: absolute; right: 8px; bottom: 8px; padding: 5px 7px; border-radius: 999px; background: var(--paper); color: var(--ink); font-size: 8px; font-weight: 800; letter-spacing: 0; }
     .art-card { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 10px; background: var(--paper); border-radius: 9px; }
     .art-card strong { display: block; font-size: 10px; line-height: 1.2; }
     .art-card small { display: block; margin-top: 4px; color: #77756f; font-size: 7px; }
@@ -122,18 +122,18 @@
     .hero-stat { display: flex; align-items: center; gap: 12px; min-height: 86px; padding: 16px 20px 16px 0; }
     .hero-stat + .hero-stat { border-left: 1px solid var(--line); padding-left: clamp(15px, 3vw, 36px); }
     .hero-stat b { font-size: clamp(1.6rem, 3.2vw, 2.7rem); font-weight: 800; letter-spacing: -.075em; line-height: 1; white-space: nowrap; }
-    .hero-stat span { max-width: 160px; color: var(--muted); font-size: 11px; line-height: 1.4; }
+    .hero-stat span { max-width: 160px; color: var(--muted); font-size: 14px; line-height: 1.45; }
 
     /* Positioning / who it's for */
     .intro-grid { display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(40px, 9vw, 130px); align-items: start; }
     .intro-aside { position: sticky; top: 115px; }
     .intro-aside .eyebrow { margin-bottom: 20px; }
-    .intro-aside p { max-width: 300px; color: var(--muted); font-size: 14px; }
+    .intro-aside p { max-width: 300px; color: var(--muted); font-size: 17px; }
     .statement { font-size: clamp(2rem, 4.2vw, 4.5rem); font-weight: 700; line-height: 1.06; letter-spacing: -.07em; }
     .statement em { color: var(--accent); font-style: normal; }
     .statement-note { display: grid; grid-template-columns: 34px 1fr; gap: 14px; align-items: start; margin-top: 33px; max-width: 580px; }
     .statement-note .num { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--lime); font-size: 11px; font-weight: 900; }
-    .statement-note p { margin: 1px 0 0; color: var(--muted); font-size: 13px; }
+    .statement-note p { margin: 1px 0 0; color: var(--muted); font-size: 17px; }
 
     .audience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
     .audience-card { position: relative; display: flex; flex-direction: column; min-height: 300px; padding: clamp(22px, 3vw, 34px); border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); overflow: hidden; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
@@ -186,24 +186,24 @@
     .sample-bio i:nth-child(3) { width: 63%; }
     .format-caption { display: flex; justify-content: space-between; gap: 20px; padding: 19px 3px 0; }
     .format-caption h3 { margin: 0; font-size: 18px; letter-spacing: -.045em; }
-    .format-caption p { margin: 6px 0 0; max-width: 300px; color: #b8b7b1; font-size: 12px; line-height: 1.55; }
+    .format-caption p { margin: 6px 0 0; max-width: 300px; color: #b8b7b1; font-size: 15px; line-height: 1.5; }
     .format-number { color: var(--lime); font-size: 10px; font-weight: 800; letter-spacing: .1em; }
     .showcase-note { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin-top: 38px; padding-top: 25px; border-top: 1px solid rgba(255,255,255,.18); }
-    .showcase-note p { max-width: 580px; margin: 0; color: #b8b7b1; font-size: 13px; }
+    .showcase-note p { max-width: 580px; margin: 0; color: #b8b7b1; font-size: 15px; }
     .showcase-note .btn { flex: 0 0 auto; }
 
     /* Included / deliverables */
     .included-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(35px, 8vw, 110px); align-items: start; }
     .included-lede { position: sticky; top: 115px; }
     .included-lede h2 { margin: 14px 0 20px; font-size: clamp(2.5rem, 5.6vw, 5.8rem); line-height: .92; letter-spacing: -.08em; }
-    .included-lede p { max-width: 370px; color: var(--muted); font-size: 14px; }
+    .included-lede p { max-width: 370px; color: var(--muted); font-size: 17px; }
     .included-list { border-top: 1px solid var(--line); }
     .included-item { display: grid; grid-template-columns: 42px 1fr; gap: 17px; padding: 23px 0; border-bottom: 1px solid var(--line); }
     .included-check { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--lime); }
     .included-check svg { width: 15px; height: 15px; }
-    .included-item h3 { margin: 0 0 5px; font-size: 16px; letter-spacing: -.04em; }
-    .included-item p { max-width: 560px; margin: 0; color: var(--muted); font-size: 13px; }
-    .fineprint { margin-top: 20px; padding: 17px 19px; border-radius: 14px; background: #ece9e1; color: var(--muted); font-size: 11px; line-height: 1.65; }
+    .included-item h3 { margin: 0 0 7px; font-size: 19px; letter-spacing: -.04em; }
+    .included-item p { max-width: 560px; margin: 0; color: var(--muted); font-size: 16px; }
+    .fineprint { margin-top: 20px; padding: 17px 19px; border-radius: 14px; background: #ece9e1; color: var(--muted); font-size: 13px; line-height: 1.65; }
 
     /* Process */
     .process { background: #ebe8df; }
@@ -213,8 +213,8 @@
     .process-step::before { content: "0" counter(process); display: block; width: fit-content; margin-bottom: 50px; color: var(--accent); font-size: 13px; font-weight: 900; letter-spacing: .07em; }
     .process-step:not(:last-child)::after { content: "↗"; position: absolute; top: 17px; right: 20px; font-size: 19px; color: #aaa79e; }
     .process-step h3 { margin: 0 0 8px; font-size: 19px; line-height: 1.1; letter-spacing: -.055em; }
-    .process-step p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.65; }
-    .process-callout { display: flex; align-items: center; gap: 12px; margin-top: 18px; font-size: 12px; color: var(--muted); }
+    .process-step p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.55; }
+    .process-callout { display: flex; align-items: center; gap: 12px; margin-top: 18px; font-size: 15px; color: var(--muted); }
     .process-callout svg { width: 18px; height: 18px; color: var(--accent); flex: 0 0 auto; }
 
     /* Pricing */
@@ -225,41 +225,42 @@
     .price-card .eyebrow::before { background: var(--lime); }
     .price-main { position: relative; z-index: 1; }
     .price-main h2 { max-width: 650px; margin: 16px 0 23px; font-size: clamp(2.5rem, 6vw, 6rem); line-height: .92; letter-spacing: -.08em; }
-    .price-main > p { max-width: 460px; margin: 0; color: rgba(255,255,255,.83); font-size: 14px; }
+    .price-main > p { max-width: 460px; margin: 0; color: rgba(255,255,255,.9); font-size: 17px; }
     .price-amount { display: flex; align-items: baseline; gap: 12px; margin-top: 28px; }
     .price-amount strong { font-size: clamp(4rem, 10vw, 8rem); line-height: .88; letter-spacing: -.1em; }
     .price-amount span { max-width: 125px; font-size: 11px; font-weight: 800; line-height: 1.4; }
     .price-details { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: end; padding: 25px; border: 1px solid rgba(255,255,255,.3); border-radius: 20px; background: rgba(255,255,255,.08); backdrop-filter: blur(9px); }
     .price-details h3 { margin: 0 0 17px; font-size: 15px; }
     .price-points { display: grid; gap: 13px; margin: 0 0 28px; padding: 0; list-style: none; }
-    .price-points li { display: flex; align-items: start; gap: 9px; color: rgba(255,255,255,.9); font-size: 12px; }
+    .price-points li { display: flex; align-items: start; gap: 9px; color: rgba(255,255,255,.9); font-size: 15px; }
     .price-points svg { width: 14px; height: 14px; flex: 0 0 auto; margin-top: 2px; color: var(--lime); }
     .price-details .btn { align-self: start; background: white; border-color: white; color: var(--ink); box-shadow: none; }
     .price-details .btn:hover { background: var(--lime); border-color: var(--lime); }
-    .price-footnote { margin: 14px 0 0; color: rgba(255,255,255,.73); font-size: 10px; line-height: 1.5; }
+    .price-footnote { margin: 14px 0 0; color: rgba(255,255,255,.8); font-size: 12px; line-height: 1.5; }
 
-    /* About */
-    .about-grid { display: grid; grid-template-columns: .7fr 1.3fr; gap: clamp(40px, 9vw, 130px); align-items: center; }
-    .about-card { position: relative; min-height: 320px; display: flex; flex-direction: column; justify-content: space-between; padding: clamp(26px, 4vw, 46px); overflow: hidden; border-radius: 28px; background: var(--lime); }
-    .about-monogram { position: absolute; right: -3%; bottom: -16%; color: rgba(24,24,23,.09); font-size: clamp(15rem, 28vw, 28rem); font-weight: 900; line-height: .75; letter-spacing: -.16em; }
-    .about-card .tiny-label { position: relative; z-index: 1; font-size: 10px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
-    .about-card .about-name { position: relative; z-index: 1; max-width: 300px; font-size: clamp(2rem, 4vw, 3.7rem); line-height: .95; letter-spacing: -.08em; font-weight: 800; }
+    /* About — portrait photo */
+    .about-grid { display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(40px, 9vw, 130px); align-items: center; }
+    .about-photo { position: relative; min-height: 420px; aspect-ratio: 4 / 5; margin: 0; overflow: hidden; border-radius: 28px; background: var(--lime); }
+    .about-photo img { position: absolute; z-index: 1; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .about-photo-fallback { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; padding: 25px; color: var(--ink); }
+    .about-photo-fallback svg { width: min(62%, 220px); height: auto; }
+    .about-photo-fallback span { padding: 8px 12px; border-radius: 999px; background: var(--paper); font-size: 14px; font-weight: 800; }
     .about-copy h2 { max-width: 700px; margin: 15px 0 20px; font-size: clamp(2.5rem, 5.5vw, 5.5rem); line-height: .94; letter-spacing: -.08em; }
-    .about-copy p { max-width: 650px; color: var(--muted); font-size: 14px; }
-    .about-proof { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
-    .about-proof span { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 10px; font-weight: 800; }
+    .about-copy p { max-width: 650px; color: var(--muted); font-size: 18px; line-height: 1.58; }
+    .about-copy .btn { margin-top: 10px; }
+    .about-copy .about-after { margin-top: 18px; font-size: 15px; }
 
     /* FAQ */
     .faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(35px, 8vw, 100px); align-items: start; }
     .faq-lede h2 { margin: 15px 0 18px; font-size: clamp(2.5rem, 5.5vw, 5.7rem); line-height: .94; letter-spacing: -.08em; }
-    .faq-lede p { max-width: 330px; color: var(--muted); font-size: 13px; }
+    .faq-lede p { max-width: 330px; color: var(--muted); font-size: 16px; }
     .faq-list { border-top: 1px solid var(--line); }
     details { border-bottom: 1px solid var(--line); }
-    summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 0; cursor: pointer; list-style: none; font-size: 14px; font-weight: 800; letter-spacing: -.035em; }
+    summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 0; cursor: pointer; list-style: none; font-size: 16px; font-weight: 800; letter-spacing: -.035em; }
     summary::-webkit-details-marker { display: none; }
     summary::after { content: "+"; display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid var(--line); border-radius: 50%; font-size: 20px; font-weight: 400; line-height: 1; flex: 0 0 auto; transition: transform .2s ease, background .2s ease; }
     details[open] summary::after { content: "−"; background: var(--lime); transform: rotate(180deg); }
-    details p { max-width: 650px; margin: -4px 0 22px; padding-right: 42px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    details p { max-width: 650px; margin: -4px 0 22px; padding-right: 42px; color: var(--muted); font-size: 15px; line-height: 1.65; }
 
     /* CTA + footer */
     .final { padding-block: clamp(65px, 10vw, 140px); border-top: 1px solid var(--line); }
@@ -267,7 +268,7 @@
     .final-card::after { content: "↗"; position: absolute; right: 2%; bottom: -24%; color: rgba(255,255,255,.055); font-size: clamp(15rem, 35vw, 40rem); line-height: .7; font-weight: 400; pointer-events: none; }
     .final-card h2 { position: relative; z-index: 1; max-width: 1050px; margin: 18px 0 25px; font-size: clamp(3rem, 9vw, 9rem); line-height: .87; letter-spacing: -.095em; }
     .final-card h2 em { color: var(--lime); font-style: normal; }
-    .final-card p { position: relative; z-index: 1; max-width: 430px; margin: 0 0 28px; color: #b9b8b2; font-size: 14px; }
+    .final-card p { position: relative; z-index: 1; max-width: 430px; margin: 0 0 28px; color: #b9b8b2; font-size: 17px; }
     .final-card .btn { position: relative; z-index: 1; }
     footer { padding-block: 26px 35px; }
     .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 25px; padding-top: 22px; border-top: 1px solid var(--line); }
@@ -396,6 +397,44 @@
       .footer-row { align-items: start; flex-direction: column; }
       .footer-meta { justify-content: start; }
     }
+
+    /* Final readability and portrait refinements */
+    .hero-desc { font-size: clamp(18px, 1.5vw, 21px); }
+    .hero-note { font-size: 14px; }
+    .hero-stat span { font-size: 14px; }
+    .section-heading > p, .intro-aside p, .statement-note p, .included-lede p,
+    .included-item p, .process-step p, .process-callout, .price-main > p,
+    .price-points li, .faq-lede p, details p, .final-card p { font-size: 16px; }
+    .audience-card p { font-size: 16px; }
+    .format-caption p, .showcase-note p { font-size: 15px; }
+    .nav-links a { font-size: 14px; }
+    .btn { font-size: 16px; }
+    .eyebrow { font-size: 12px; }
+    .pill { font-size: 12px; }
+    .about-photo { min-height: 420px; }
+    .about-copy p { font-size: 18px; }
+    .about-copy .about-after { font-size: 15px; }
+    .about-copy .btn { margin-top: 12px; }
+    .final-secondary { position: relative; z-index: 1; margin: 18px 0 0; color: #b9b8b2; font-size: 15px; }
+    .final-secondary a { color: white; text-decoration-color: var(--lime); text-underline-offset: 4px; font-weight: 800; }
+    .final-secondary a:hover { color: var(--lime); }
+    @media (max-width: 800px) {
+      .about-photo { min-height: 0; width: min(100%, 460px); }
+      .about-grid { align-items: start; }
+    }
+    @media (max-width: 540px) {
+      body { font-size: 17px; }
+      .hero-desc { font-size: 18px; }
+      .hero-note, .hero-stat span { font-size: 14px; }
+      .section-heading > p, .intro-aside p, .statement-note p, .included-lede p,
+      .included-item p, .process-step p, .process-callout, .price-main > p,
+      .price-points li, .faq-lede p, details p, .final-card p, .audience-card p { font-size: 16px; }
+      .format-caption p, .showcase-note p { font-size: 15px; }
+      summary { font-size: 16px; }
+      details p { font-size: 15px; }
+      .about-photo { max-width: 100%; }
+    }
+
   </style>
 </head>
 <body>
@@ -409,7 +448,7 @@
         <a href="#process">Как работаем</a>
         <a href="#faq">Вопросы</a>
       </div>
-      <a class="btn nav-cta" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Обсудить проект <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a class="btn nav-cta" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Написать мне <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </nav>
   </header>
 
@@ -419,35 +458,35 @@
         <div class="hero-grid">
           <div class="hero-copy">
             <div class="hero-kicker">
-              <span class="pill"><span class="pill-dot"></span>Сайты под ключ</span>
+              <span class="pill"><span class="pill-dot"></span>Персональные сайты</span>
               <span class="pill pill--dark">24 часа после брифа</span>
             </div>
-            <h1><span class="line">Ваш опыт.</span><span class="line">Ваши работы.</span><span class="line"><span class="highlight">Одна ссылка.</span></span></h1>
-            <p class="hero-desc">Персональный сайт, который собирает ваши проекты, услуги и опыт в цельную историю. Чтобы не объяснять каждый раз с нуля, кто вы и чем можете быть полезны.</p>
+            <h1><span class="line">Не десять</span><span class="line">файлов.</span><span class="line"><span class="highlight">Одна ссылка.</span></span></h1>
+            <p class="hero-desc">Я соберу ваши работы, услуги и опыт в один сайт — чтобы вы могли просто отправить ссылку клиенту или работодателю.</p>
             <div class="hero-actions">
-              <a class="btn" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Собрать мой сайт <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-              <a class="btn btn--line" href="#formats">Выбрать формат</a>
+              <a class="btn" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Написать мне <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn btn--line" href="#formats">Посмотреть форматы</a>
             </div>
-            <div class="hero-note"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 19 6v5c0 4.6-3.1 8.1-7 10-3.9-1.9-7-5.4-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Без конструктора с вашей стороны. Тексты, дизайн и публикация — на мне.</div>
+            <div class="hero-note"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 19 6v5c0 4.6-3.1 8.1-7 10-3.9-1.9-7-5.4-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Не нужно разбираться в конструкторах — я всё соберу за вас.</div>
           </div>
 
           <div class="hero-visual" aria-label="Демонстрационный макет персонального сайта">
             <span class="orbit" aria-hidden="true"></span>
-            <div class="floating-tag floating-tag--top"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m4 13 5 5L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Собираем вашу историю</div>
+            <div class="floating-tag floating-tag--top"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m4 13 5 5L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Я соберу вашу страницу</div>
             <div class="demo-label">Демонстрационный макет</div>
             <div class="mockup">
               <div class="mock-browser"><div class="browser-dots" aria-hidden="true"><i></i><i></i><i></i></div><span class="browser-address">yourname.fast-start.site</span><span class="browser-label">PORTFOLIO / 01</span></div>
               <div class="mini-site">
                 <div class="mini-copy">
                   <div class="mini-brand">NAME / YOUR FIELD</div>
-                  <div class="mini-overline">Портфолио · Услуги · Опыт</div>
+                  <div class="mini-overline">YOUR WORK / YOUR LINK</div>
                   <div class="mini-title">Давайте<br>знакомиться<span class="accent">.</span></div>
-                  <p class="mini-paragraph">Показываем сильные стороны, подход и работы — без лишнего шума.</p>
+                  <p class="mini-paragraph">Работы и опыт — в одном месте.</p>
                   <span class="mini-button">Смотреть проекты ↗</span>
-                  <div class="mini-meta">Структура · Тексты · Дизайн</div>
+                  
                 </div>
                 <div class="mini-art">
-                  <div class="art-photo"></div>
+                  <div class="art-photo" aria-label="Минималистичный портрет — тут можете быть вы"></div>
                   <div class="art-card"><div><strong>Из опыта —<br>в результат</strong><small>SELECTED WORKS</small></div><b>↗</b></div>
                   <div class="art-card"><div><strong>Услуги и<br>контакты</strong><small>LET'S TALK</small></div><b>＋</b></div>
                 </div>
@@ -458,9 +497,29 @@
         </div>
 
         <div class="hero-foot" aria-label="Ключевые условия">
-          <div class="hero-stat"><b>24 ч</b><span>на сборку после заполненного брифа и материалов</span></div>
-          <div class="hero-stat"><b>1 500 ₽</b><span>стартовая цена для первых 10 проектов</span></div>
-          <div class="hero-stat"><b>1 ссылка</b><span>на ваши работы, услуги, опыт и контакты</span></div>
+          <div class="hero-stat"><b>24 ч</b><span>после анкеты и получения материалов</span></div>
+          <div class="hero-stat"><b>3 000 ₽</b><span>для первых 10 заказчиков</span></div>
+          <div class="hero-stat"><b>1 ссылка</b><span>на всё, что важно о вас</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <figure class="about-photo reveal" aria-label="Фото Ильи Татаурова">
+          <div class="about-photo-fallback" aria-hidden="true">
+            <svg viewBox="0 0 120 145" fill="none"><circle cx="60" cy="42" r="25" fill="#c8bcae"/><path d="M15 143c2-34 19-55 45-55s43 21 45 55" fill="#a79a8c"/><path d="M48 41c4 4 8 6 12 6s8-2 12-6" stroke="#75675b" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>тут можете быть вы</span>
+          </div>
+          <img src="image.jpg" alt="Илья Татауров" width="900" height="1125" loading="lazy" onerror="this.style.display='none'">
+        </figure>
+        <div class="about-copy reveal delay-1">
+          <span class="eyebrow">Сначала познакомимся</span>
+          <h2>Работы есть. Как их показать — отдельная задача.</h2>
+          <p>Я Илья. Работаю в SMM и маркетинге и сам искал работу, собирал кейсы и пытался уместить опыт в резюме.</p>
+          <p>Поэтому я создал FAST.START: вы рассказываете о себе, а я собираю сайт. Моё резюме — тоже пример такого подхода.</p>
+          <a class="btn btn--dark" href="https://wanna-work.github.io/tataurrov/" target="_blank" rel="noopener noreferrer">Смотреть моё резюме <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <p class="about-after">Так же оформим ваш опыт — под вашу задачу.</p>
         </div>
       </div>
     </section>
@@ -469,13 +528,13 @@
       <div class="container intro-grid">
         <aside class="intro-aside reveal">
           <span class="eyebrow">Зачем это нужно</span>
-          <p>Сайт не ради галочки. А чтобы человеку по ту сторону экрана было проще увидеть главное.</p>
+          <p>Я делаю сайт не ради галочки. Он нужен, чтобы человек быстро понял, кто вы и чем можете быть полезны.</p>
         </aside>
         <div>
-          <div class="statement reveal">Можно хорошо делать свою работу — и всё равно теряться среди <em>десятков ссылок, файлов и сообщений.</em></div>
-          <div class="statement-note reveal delay-1"><span class="num">01</span><p>Собираем важное в одном месте: кто вы, что делаете, как мыслите и чем можете быть полезны.</p></div>
-          <div class="statement-note reveal delay-2"><span class="num">02</span><p>Показываем не абстрактные слова о навыках, а ваши реальные проекты, услуги, подход и результаты.</p></div>
-          <div class="statement-note reveal delay-3"><span class="num">03</span><p>Вы получаете короткую ссылку, которую можно отправить клиенту, работодателю или партнёру.</p></div>
+          <div class="statement reveal">Можно хорошо делать свою работу — и теряться среди <em>десятков файлов и ссылок.</em></div>
+          <div class="statement-note reveal delay-1"><span class="num">01</span><p>Я соберу главное в одном месте: кто вы, что делаете и какие задачи решаете.</p></div>
+          <div class="statement-note reveal delay-2"><span class="num">02</span><p>Покажу ваши проекты, вклад и результаты — вместо длинного списка навыков.</p></div>
+          <div class="statement-note reveal delay-3"><span class="num">03</span><p>Получите одну ссылку для клиента, работодателя или партнёра.</p></div>
         </div>
       </div>
     </section>
@@ -491,19 +550,19 @@
             <span class="card-arrow" aria-hidden="true">↗</span>
             <span class="audience-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 4v5m8-5v5M7 13h4m-4 3h7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
             <h3>Фрилансерам и креаторам</h3>
-            <p>Дизайн, видео, фото, SMM, маркетинг, тексты и другие услуги. Соберите лучшие работы, направления и способы связи в одну ссылку.</p>
+            <p>Дизайн, видео, фото, SMM, маркетинг, тексты и другие услуги. Покажите лучшие работы и дайте клиенту понятный способ связаться.</p>
           </article>
           <article class="audience-card reveal delay-1">
             <span class="card-arrow" aria-hidden="true">↗</span>
             <span class="audience-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 6h4v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             <h3>Тем, кто меняет роль или работу</h3>
-            <p>Покажите вклад, проекты и ход мыслей шире, чем позволяет резюме. Сайт подходит и для нового карьерного этапа, и для следующего уровня.</p>
+            <p>Соберите проекты и результаты в страницу, которую удобно отправить вместе с откликом.</p>
           </article>
           <article class="audience-card reveal delay-2">
             <span class="card-arrow" aria-hidden="true">↗</span>
             <span class="audience-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 20v-1.8A4.2 4.2 0 0 1 7.7 14h2.6a4.2 4.2 0 0 1 4.2 4.2V20M16 5.5a3 3 0 0 1 0 5.8m2.1 2.8a4 4 0 0 1 2.4 3.7V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
             <h3>Экспертам частной практики</h3>
-            <p>Консультантам, репетиторам и другим независимым специалистам — для описания подхода, услуг, условий и записи на консультацию.</p>
+            <p>Объясните, чем помогаете, сколько стоит услуга и как к вам записаться.</p>
           </article>
         </div>
       </div>
@@ -513,7 +572,7 @@
       <div class="container">
         <div class="section-heading reveal">
           <div><span class="eyebrow">Выбираем не шаблон, а задачу</span><h2>Один сайт.<br>Разные сценарии.</h2></div>
-          <p>Структура зависит от вашей цели. Не будем набивать страницу блоками, которые ничего не объясняют.</p>
+          <p>Подберу формат под вашу задачу — без лишних блоков ради объёма.</p>
         </div>
         <div class="format-grid">
           <article class="format-card reveal">
@@ -526,7 +585,7 @@
                 <div class="sample-grid"><span><b>01 / PROJECT</b></span><span><b>02 / PROJECT</b></span></div>
               </div>
             </div>
-            <div class="format-caption"><div><h3>Портфолио</h3><p>Работы, кейсы, результаты и ваш вклад в проекты.</p></div><span class="format-number">01</span></div>
+            <div class="format-caption"><div><h3>Портфолио</h3><p>Лучшие работы и ваш вклад в проекты.</p></div><span class="format-number">01</span></div>
           </article>
           <article class="format-card reveal delay-1">
             <div class="format-visual">
@@ -539,7 +598,7 @@
                 <div class="sample-grid"><span><b>СТРАТЕГИЯ</b></span><span><b>КРЕАТИВ</b></span></div>
               </div>
             </div>
-            <div class="format-caption"><div><h3>Страница услуг</h3><p>Что вы делаете, для кого, на каких условиях и как обратиться.</p></div><span class="format-number">02</span></div>
+            <div class="format-caption"><div><h3>Страница услуг</h3><p>Услуги, условия и удобный способ связаться.</p></div><span class="format-number">02</span></div>
           </article>
           <article class="format-card reveal delay-2">
             <div class="format-visual">
@@ -551,12 +610,11 @@
                 <div class="sample-bottom"><span class="sample-pill">Связаться ↗</span><span class="sample-index">ABOUT / CONTACT</span></div>
               </div>
             </div>
-            <div class="format-caption"><div><h3>Личная страница</h3><p>О вас, вашем подходе, направлениях работы и контактах.</p></div><span class="format-number">03</span></div>
+            <div class="format-caption"><div><h3>Личная страница</h3><p>Кто вы, чем занимаетесь и где вас найти.</p></div><span class="format-number">03</span></div>
           </article>
         </div>
         <div class="showcase-note reveal">
-          <p>Визуалы выше — демонстрация форматов, а не готовые клиентские проекты. Мой личный сайт можно посмотреть отдельно; другие примеры подберу под вашу задачу.</p>
-          <a class="btn btn--line" href="https://wanna-work.github.io/tataurrov/" target="_blank" rel="noopener noreferrer" style="border-color:rgba(255,255,255,.25);color:white;">Посмотреть мой сайт <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <p>Выше — концепты форматов, а не готовые клиентские проекты.</p>
         </div>
       </div>
     </section>
@@ -564,20 +622,20 @@
     <section class="section" id="included">
       <div class="container included-grid">
         <div class="included-lede reveal">
-          <span class="eyebrow">Что входит в работу</span>
+          <span class="eyebrow">Что я беру на себя</span>
           <h2>От анкеты<br>до ссылки.</h2>
-          <p>Вам не нужно самостоятельно собирать сайт, подбирать сетку или думать, куда поставить кнопку. Я помогу собрать всё в цельную страницу.</p>
+          <p>Вы рассказываете о себе и присылаете материалы. Дальше я собираю сайт и показываю вам результат.</p>
         </div>
         <div class="reveal delay-1">
           <div class="included-list">
-            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Структура под вашу задачу</h3><p>Решим, что показать в первую очередь: работы, услуги, опыт, результаты или подход.</p></div></div>
-            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Помощь с текстами и кейсами</h3><p>Проведу вас по анкете и помогу сформулировать опыт на основе фактов, которые вы дадите.</p></div></div>
-            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Индивидуальный дизайн</h3><p>Не просто документ в интернете, а продуманная визуальная подача с учётом вашей сферы и задач.</p></div></div>
-            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Версия для компьютера и телефона</h3><p>Страница адаптируется под разные экраны, чтобы её было удобно открыть по ссылке.</p></div></div>
-            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Публикация и размещение</h3><p>Размещаю сайт на своём домене и хостинге на 1 год. Отдельный личный домен в стоимость не входит.</p></div></div>
-            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Инструкция после запуска</h3><p>Объясню, как использовать ссылку и что нужно подготовить, если позже захотите обновить страницу.</p></div></div>
+            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Главное — на первом экране</h3><p>Выделю работы, опыт или услуги под вашу задачу.</p></div></div>
+            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Помогу рассказать о себе</h3><p>Проведу по анкете и помогу сформулировать ваш опыт на основе фактов.</p></div></div>
+            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Визуально под вашу сферу</h3><p>Не шаблонный документ, а персональный сайт с собственным характером.</p></div></div>
+            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Удобно на любом экране</h3><p>Сайт будет выглядеть аккуратно и на телефоне, и на компьютере.</p></div></div>
+            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Публикация на год включена</h3><p>Размещаю сайт на своём домене и хостинге. Персональный домен оплачивается отдельно.</p></div></div>
+            <div class="included-item"><span class="included-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h3>Подскажу, как пользоваться сайтом</h3><p>Объясню, где и как отправлять ссылку. Дальнейшие обновления можно обсудить отдельно.</p></div></div>
           </div>
-          <div class="fineprint">В стоимость входит одностраничный сайт. Сложные интеграции, новые разделы после согласования и сопровождение после публикации обсуждаются отдельно. Информация и результаты в портфолио строятся только на ваших реальных данных.</div>
+          <div class="fineprint">В стоимость входит одностраничный сайт. Сложные интеграции, новые разделы после согласования и сопровождение после публикации обсуждаются отдельно. Все кейсы и результаты оформляю на основе ваших материалов.</div>
         </div>
       </div>
     </section>
@@ -586,15 +644,15 @@
       <div class="container">
         <div class="section-heading reveal">
           <div><span class="eyebrow">Без технической возни</span><h2>Как всё<br>проходит.</h2></div>
-          <p>Я провожу вас по шагам — не нужно заранее знать, как устроен сайт или как правильно описать каждый кейс.</p>
+          <p>Я проведу вас по шагам. От вас не нужны навыки дизайна или разработки.</p>
         </div>
         <div class="process-list">
-          <article class="process-step reveal"><h3>Знакомимся</h3><p>Обсуждаем, зачем вам сайт, кто будет его смотреть и какое действие вы хотите получить.</p></article>
-          <article class="process-step reveal delay-1"><h3>Заполняете бриф</h3><p>Анкета помогает вспомнить опыт, проекты, услуги и цели. При необходимости пришлёте ссылки и материалы.</p></article>
-          <article class="process-step reveal delay-2"><h3>Я собираю сайт</h3><p>Продумываю структуру, помогаю с текстами, оформляю страницу и показываю вам результат до публикации.</p></article>
-          <article class="process-step reveal delay-3"><h3>Согласуем и запускаем</h3><p>После согласования вы оплачиваете работу, а я публикую сайт и отправляю вам ссылку.</p></article>
+          <article class="process-step reveal"><h3>Знакомимся</h3><p>Вы рассказываете, для кого сайт и что хотите показать.</p></article>
+          <article class="process-step reveal delay-1"><h3>Заполняете бриф</h3><p>Заполняете анкету и прикладываете ссылки, фото и материалы.</p></article>
+          <article class="process-step reveal delay-2"><h3>Я собираю сайт</h3><p>Я собираю страницу и показываю её вам до публикации.</p></article>
+          <article class="process-step reveal delay-3"><h3>Согласуем и запускаем</h3><p>После согласования вы оплачиваете работу. Я публикую сайт и отправляю ссылку.</p></article>
         </div>
-        <div class="process-callout reveal"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Срок — до 24 часов после заполненного брифа и получения необходимых материалов.</div>
+        <div class="process-callout reveal"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Срок — 24 часа после заполненной анкеты и получения всех нужных материалов.</div>
       </div>
     </section>
 
@@ -603,50 +661,33 @@
         <div class="price-card reveal">
           <div class="price-main">
             <span class="eyebrow">Стартовая цена</span>
-            <h2>Хорошая упаковка не должна стоить целое состояние.</h2>
-            <p>Проверяю формат вместе с первыми клиентами, поэтому для первых десяти проектов действует специальная цена.</p>
-            <div class="price-amount"><strong>1 500 ₽</strong><span>за сайт<br>под ключ</span></div>
+            <h2>Первые 10 заказчиков — по стартовой цене.</h2>
+            <p>Вы заполняете анкету, я собираю сайт и показываю его до публикации.</p>
+            <div class="price-amount"><strong>3 000 ₽</strong><span>за сайт<br>под ключ</span></div>
           </div>
           <div class="price-details">
             <h3>В стоимость входит</h3>
             <ul class="price-points">
               <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Анкета и помощь с упаковкой опыта</li>
-              <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Структура, тексты и дизайн</li>
+              <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Сайт, собранный под вашу задачу</li>
               <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Мобильная версия и публикация</li>
               <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Размещение на моём домене и хостинге на 1 год</li>
             </ul>
-            <a class="btn" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Забрать стартовую цену <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="btn" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Написать мне <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             <p class="price-footnote">Оплата — после согласования готовой версии и до публикации. Индивидуальный домен, сложные интеграции и дальнейшее сопровождение не включены.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="container about-grid">
-        <div class="about-card reveal" aria-label="Автор проекта FAST.START — Илья Татауров">
-          <span class="tiny-label">Человек по ту сторону сайта</span>
-          <span class="about-name">Илья<br>Татауров<span class="accent">.</span></span>
-          <span class="about-monogram" aria-hidden="true">F</span>
-          <span class="tiny-label">SMM · Маркетинг · FAST.START</span>
-        </div>
-        <div class="about-copy reveal delay-1">
-          <span class="eyebrow">Немного обо мне</span>
-          <h2>Я знаю, как сложно показать свою работу.</h2>
-          <p>Меня зовут Илья, я работаю в SMM и маркетинге. Сам собирал портфолио, чтобы показать свой опыт и получать новые возможности. FAST.START появился из желания сделать этот процесс понятнее: без самостоятельной сборки сайта и бесконечных попыток красиво сформулировать всё с нуля.</p>
-          <p>Я не обещаю работу или поток клиентов. Моя задача — помочь вам профессионально и понятно презентовать то, что вы уже умеете.</p>
-          <div class="about-proof"><span>Понятный процесс</span><span>Реальные факты</span><span>Без обещаний трудоустройства</span></div>
-        </div>
-      </div>
-    </section>
 
     <section class="section" id="faq">
       <div class="container faq-grid">
-        <div class="faq-lede reveal"><span class="eyebrow">Перед стартом</span><h2>Коротко<br>на вопросы.</h2><p>Если ваша задача чуть отличается от описанных, напишите мне — обсудим, подойдёт ли вам такой формат.</p><a class="text-link" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Задать вопрос в Telegram <span>↗</span></a></div>
+        <div class="faq-lede reveal"><span class="eyebrow">Перед стартом</span><h2>Коротко<br>на вопросы.</h2><p>Не нашли свой формат? Напишите мне — обсудим задачу.</p><a class="text-link" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Написать мне <span>↗</span></a></div>
         <div class="faq-list reveal delay-1">
           <details><summary>Это только для тех, кто ищет работу?</summary><p>Нет. Сайт можно использовать для откликов на вакансии, поиска клиентов, презентации услуг, личной практики или перехода в новую профессиональную роль. Структура зависит от вашей задачи.</p></details>
-          <details><summary>А если у меня нет готовых кейсов?</summary><p>Можно показать личные, учебные или самостоятельные проекты — честно обозначив их формат. Если работ пока нет совсем, вместе оценим, что можно представить содержательно. Выдумывать опыт и результаты не будем.</p></details>
-          <details><summary>Мне нужно самому писать тексты и делать дизайн?</summary><p>Нет. Вы заполняете подробную анкету и даёте факты и материалы. Я помогаю структурировать информацию, формулировать тексты, выбираю визуальное направление и собираю страницу.</p></details>
+          <details><summary>А если у меня нет готовых кейсов?</summary><p>Можно показать личные, учебные или самостоятельные проекты — честно обозначив их формат. Если работ пока нет совсем, я подскажу, что можно показать содержательно. Выдумывать опыт и результаты не будем.</p></details>
+          <details><summary>Мне нужно самому писать тексты и делать дизайн?</summary><p>Нет. Вы заполняете анкету и присылаете факты и материалы. Я собираю из них понятную страницу и помогаю с формулировками.</p></details>
           <details><summary>Когда будут готовы сайт и ссылка?</summary><p>Ориентир — 24 часа после заполнения анкеты и получения необходимых материалов. Если для страницы не хватает критически важной информации, срок согласуем отдельно.</p></details>
           <details><summary>Где будет размещён сайт? Нужно ли платить за домен?</summary><p>Публикую страницу на своём домене и хостинге, размещение включено на один год. Отдельный персональный домен вида yourname.ru в цену не входит.</p></details>
           <details><summary>Когда нужно платить?</summary><p>Сначала вы заполняете анкету, я собираю сайт и показываю готовую версию. После согласования вы оплачиваете работу, затем я публикую сайт и отправляю ссылку.</p></details>
@@ -660,9 +701,10 @@
       <div class="container">
         <div class="final-card reveal">
           <span class="eyebrow">Следующий шаг</span>
-          <h2>Пусть о вас говорит <em>не только резюме.</em></h2>
-          <p>Расскажите, что хотите показать — подскажу, какой формат сайта будет уместен именно для вашей задачи.</p>
-          <a class="btn" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Написать Илье в Telegram <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <h2>Давайте соберём<br><em>ваш сайт.</em></h2>
+          <p>Напишите мне — обсудим вашу задачу. Или заполните анкету, если уже всё решили.</p>
+          <a class="btn" href="https://t.me/tataurrov" target="_blank" rel="noopener noreferrer">Написать мне <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <p class="final-secondary">Уже готовы? <a href="https://fragrant-fire-57f9.fast-start.workers.dev/" target="_blank" rel="noopener noreferrer">Сразу заполнить анкету ↗</a></p>
         </div>
       </div>
     </section>
